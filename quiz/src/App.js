@@ -1,6 +1,6 @@
 import React from 'react';
 import Radio from './Form/Radio';
-import './Form/App.css';
+
 
 const perguntas = [
   {
@@ -81,7 +81,7 @@ const App = () => {
       {resultado ? (
         <p>{resultado}</p>
       ) : (
-          <button className=" btn btn-primary m-4" onClick={handleClick}>Próxima</button>
+          <button className=" btn btn-primary ml-5 mb-5" onClick={handleClick}>Próxima</button>
         )}
     </form>
 
