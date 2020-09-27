@@ -4,35 +4,35 @@ import './Form/App.css';
 
 const perguntas = [
   {
-    pergunta: 'Qual método é utilizado para criar componentes?',
+    pergunta: 'De quem é a famosa frase "Penso, logo existo?',
     options: [
-      'React.makeComponent()',
-      'React.createComponent()',
-      'React.createElement()',
+      'Platão',
+      'Galileu Galilei',
+      'Descartes',
     ],
-    resposta: 'React.createElement()',
+    resposta: 'Descartes',
     id: 'p1',
   },
   {
-    pergunta: 'Como importamos um componente externo?',
+    pergunta: 'Qual o número mínimo de jogadores numa partida de futebol ?',
     options: [
-      'import Component from "./Component"',
-      'require("./Component")',
-      'import "./Component"',
+      'sete',
+      'nove',
+      'oito',
     ],
-    resposta: 'import Component from "./Component"',
+    resposta: 'sete',
     id: 'p2',
   },
   {
-    pergunta: 'Qual hook não é nativo?',
-    options: ['useEffect()', 'useFetch()', 'useCallback()'],
-    resposta: 'useFetch()',
+    pergunta: 'Qual a nacionalidade de Che Guevara?',
+    options: ['Boliviana', 'Argentina', 'Cubana'],
+    resposta: 'Argentina',
     id: 'p3',
   },
   {
-    pergunta: 'Qual palavra deve ser utilizada para criarmos um hook?',
-    options: ['set', 'get', 'use'],
-    resposta: 'use',
+    pergunta: 'Qual data é comemorada em novembro?',
+    options: ['Proclamação da República', 'Independência do Brasil', 'Carnaval'],
+    resposta: 'Proclamação da República',
     id: 'p4',
   },
 ];
@@ -81,7 +81,7 @@ const App = () => {
       {resultado ? (
         <p>{resultado}</p>
       ) : (
-          <button className=" btn btn-primary m-3" onClick={handleClick}>Próxima</button>
+          <button className=" btn btn-primary m-4" onClick={handleClick}>Próxima</button>
         )}
     </form>
 

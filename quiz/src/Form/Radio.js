@@ -4,7 +4,7 @@ const Radio = ({ pergunta, options, onChange, value, id, active }) => {
     if (active === false) return null;
     return (
         <p>
-            <div className="card m-3">
+            <div className="card m-4">
                 <div className="card-body">
                     <legend style={{ fontWeight: 'bold' }}>{pergunta}</legend>
                     {options.map((option) => (
